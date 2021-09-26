@@ -1,0 +1,14 @@
+.bookItem{
+    display: flex;
+}
+.item{
+    width: 220px;
+    margin: 30px 10px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item img{
+    width: 70%;
+    height: 50%;
+}
