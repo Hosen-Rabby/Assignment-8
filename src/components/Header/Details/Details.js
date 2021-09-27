@@ -6,6 +6,8 @@ import './Details.css';
 const Details = () => {
     const [books, setBooks] = useState([]);
     const [cart, setCart] = useState([]);
+    // console.log(cart[0].key);
+
 
     // load data
     useEffect(()=> {
@@ -16,7 +18,6 @@ const Details = () => {
 
     // count
     const addToCart = (book) =>{
-        console.log(book)
         const newCart = [...cart, book];
         setCart(newCart);
     }
